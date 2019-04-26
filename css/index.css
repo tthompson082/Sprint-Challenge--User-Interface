@@ -52,7 +52,7 @@ table {
 }
 
 html, body {
-    height: 935px;
+    height: 100%;
     width: 850px;
     font-family: 'Roboto', sans-serif;
     margin: auto;
@@ -212,8 +212,46 @@ footer nav a {
     margin-bottom: 20px;
 }
 
+.about-body div {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.about-body div img {
+    width: 100%;
+}
+
+.about-body div h2 {
+    margin: 20px 0px;
+}
+
+.about-body div p {
+    margin-bottom: 20px;
+}
+
+.about-body div button {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 150px;
+    background: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black
+}
 .about-body {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 49%;
+    margin-top: 30px;
+    border-top: 1px dashed black;
+}
+
+.about-bottom-content {
+    width: 93%;
+    margin: auto;
+}
+.about-bottom-content p {
+    margin-bottom: 40px;
 }
