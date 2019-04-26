@@ -52,8 +52,10 @@ table {
 }
 
 html, body {
-    height: 100%;
+    height: 935px;
+    width: 850px;
     font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -143,4 +145,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 25px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-image {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
