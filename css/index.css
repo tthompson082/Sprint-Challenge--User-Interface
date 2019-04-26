@@ -152,6 +152,7 @@ footer nav a {
     justify-content: space-between;
     align-items: baseline;
     margin-top: 25px;
+    margin-right: 50px;
 }
 
 .top-nav a {
@@ -203,4 +204,16 @@ footer nav a {
 
 #box10 {
     background: dodgerblue;
+}
+
+.jumbo-about {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about-body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 49%;
 }
